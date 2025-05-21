@@ -12,9 +12,54 @@ body {
 
 h1 {
     font-weight: 700;
+    font-size: 32px;
+}
+
+h2 {
+    font-weight: 700;
     font-size: 24px;
 }
 
-/* nav {
+h3 {
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(170, 170, 170);
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.black {
+    color: #000;
+}
+
+.purple {
+    color: #6C5CE7;
+}
+
+.dash-yellow {
+    width: 60px;
+    position: absolute;
+    background-color: #FDCB6E;
+    border-radius: 20px;
+    padding: 7px 38px;
+    translate: 185px -19px;
+    z-index: -1;
+}
+
+.minicaps {
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#test {
+    background-color: #646464;
+}
+
+/* main {
     background-color: #646464;
 } */
