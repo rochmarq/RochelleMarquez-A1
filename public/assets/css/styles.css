@@ -8,6 +8,32 @@ body {
     background-color: #6C5CE7;
     font-weight: 700;
     font-size: 18px;
+    border-radius: 15px;
+}
+
+.btn-white {
+    color: #2D3436;
+    background-color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 15px;
+}
+
+.btn-grey {
+    color: #2D3436;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    border-radius: 20px;
+}
+
+.btn-aqua {
+    color: #55EFC4;
+    border-color: #55EFC4;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    border-radius: 20px;
 }
 
 h1 {
@@ -31,12 +57,30 @@ h4 {
     font-weight: 700;
 }
 
+p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #2D3436;
+}
+
 .black {
     color: #000;
 }
 
 .purple {
     color: #6C5CE7;
+}
+
+.bgc-purple {
+    background-color: #6C5CE7;
+}
+
+.aqua {
+    color: #55EFC4;
+}
+
+.white {
+    color: #fff;
 }
 
 .dash-yellow {
@@ -49,17 +93,32 @@ h4 {
     z-index: -1;
 }
 
+.circle-yellow {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #FDCB6E;
+    z-index: 1;
+}
+
+.circle-grey {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #2D3436;
+    z-index: 1;
+}
+
+.move-right {
+    translate: 3px;
+    z-index: 2;
+}
+
 .minicaps {
     font-size: 12px;
     font-weight: 800;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
-
-#test {
-    background-color: #646464;
-}
-
-/* main {
-    background-color: #646464;
-} */
