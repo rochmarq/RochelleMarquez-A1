@@ -122,3 +122,7 @@ p {
     letter-spacing: 2px;
     text-transform: uppercase;
 }
+
+#heading-price {
+    width: 350px;
+}
