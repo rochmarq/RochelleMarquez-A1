@@ -57,6 +57,10 @@ p {
     color: #2D3436;
 }
 
+a {
+    font-size: 14px;
+}
+
 .black {
     color: #000;
 }
@@ -118,5 +122,5 @@ p {
 }
 
 #heading-price {
-    width: 350px;
+    width: 330px;
 }
